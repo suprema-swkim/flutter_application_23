@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir /s /b *.jsonl)",
+      "Bash(dir /s /b \"%APPDATA%\\\\claude*\")",
+      "Bash(dir /s /b \"%LOCALAPPDATA%\\\\claude*\")",
+      "Bash(dir /s /b \"%USERPROFILE%\\\\.claude*\")",
+      "Bash(ls:*)"
+    ]
+  }
+}
