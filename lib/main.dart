@@ -42,7 +42,6 @@ class MyHomePage extends StatelessWidget {
             icon: const Icon(Icons.logout),
             tooltip: '로그아웃',
             onPressed: () {
-              // 로그아웃 후 로그인 페이지로 이동
               Navigator.pushReplacementNamed(context, '/');
             },
           ),
