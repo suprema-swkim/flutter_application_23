@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { background: #ffffff; }
+body {
+  width: 720pt; height: 405pt; margin: 0; padding: 0;
+  background: #F4F6F6;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  background: #1C2833;
+  padding: 30pt 40pt;
+  margin: 0;
+}
+h1 {
+  color: #ffffff;
+  font-size: 36pt;
+  font-weight: bold;
+  margin: 0;
+}
+.content {
+  margin: 40pt;
+  flex: 1;
+}
+.arch-item {
+  background: #ffffff;
+  padding: 20pt 25pt;
+  border-left: 5pt solid #027DFD;
+  border-radius: 4pt;
+  margin-bottom: 15pt;
+}
+.arch-title {
+  color: #1C2833;
+  font-size: 18pt;
+  font-weight: bold;
+  margin: 0 0 8pt 0;
+}
+.arch-desc {
+  color: #2E4053;
+  font-size: 15pt;
+  margin: 0;
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>아키텍처</h1>
+</div>
+<div class="content">
+  <div class="arch-item">
+    <p class="arch-title">라우팅</p>
+    <p class="arch-desc">main.dart의 MaterialApp.routes에서 Named Routes 방식 사용</p>
+  </div>
+  <div class="arch-item">
+    <p class="arch-title">테마</p>
+    <p class="arch-desc">Material 3 + ColorScheme.fromSeed() 기반</p>
+  </div>
+  <div class="arch-item">
+    <p class="arch-title">페이지 구조</p>
+    <p class="arch-desc">lib/pages/ 디렉토리에 페이지별 위젯 분리</p>
+  </div>
+  <div class="arch-item">
+    <p class="arch-title">상태 관리</p>
+    <p class="arch-desc">현재 StatefulWidget 기반 로컬 상태 관리</p>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { background: #ffffff; }
+body {
+  width: 720pt; height: 405pt; margin: 0; padding: 0;
+  background: #F4F6F6;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  background: #1C2833;
+  padding: 30pt 40pt;
+  margin: 0;
+}
+h1 {
+  color: #ffffff;
+  font-size: 36pt;
+  font-weight: bold;
+  margin: 0;
+}
+.content {
+  margin: 40pt;
+  flex: 1;
+}
+h2 {
+  color: #027DFD;
+  font-size: 20pt;
+  font-weight: bold;
+  margin: 0 0 15pt 0;
+}
+ul {
+  color: #1C2833;
+  font-size: 16pt;
+  line-height: 1.8;
+  margin: 0;
+  padding-left: 25pt;
+}
+.command-box {
+  background: #ffffff;
+  padding: 25pt;
+  border-radius: 4pt;
+  margin-bottom: 20pt;
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>개발 명령어</h1>
+</div>
+<div class="content">
+  <div class="command-box">
+    <h2>기본 명령어</h2>
+    <ul>
+      <li>flutter pub get - 의존성 설치</li>
+      <li>flutter run - 앱 실행 (디버그 모드)</li>
+      <li>flutter analyze - 코드 분석 (린트)</li>
+      <li>flutter test - 테스트 실행</li>
+    </ul>
+  </div>
+  <div class="command-box">
+    <h2>빌드 명령어</h2>
+    <ul>
+      <li>flutter build apk - Android APK</li>
+      <li>flutter build ios - iOS</li>
+      <li>flutter build web - 웹</li>
+      <li>flutter build macos - macOS</li>
+    </ul>
+  </div>
+</div>
+</body>
+</html>
